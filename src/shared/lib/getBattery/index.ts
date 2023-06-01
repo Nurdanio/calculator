@@ -1,0 +1,1 @@
+export { GetBattery } from "./getBattery";
