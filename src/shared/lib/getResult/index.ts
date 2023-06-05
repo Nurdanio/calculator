@@ -1,0 +1,1 @@
+export { GetResult } from "./GetResult";

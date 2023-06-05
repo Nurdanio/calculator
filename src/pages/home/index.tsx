@@ -1,8 +1,6 @@
 import { Center, Stack } from "@mantine/core";
 import { useHomePageStyles } from "./HomePage.styles";
-import { CalculatorKeyboard } from "../../widgets";
-import { Display } from "../../widgets/display";
-import { MobilePanel } from "../../widgets/mobilePanel";
+import { CalculatorKeyboard, Display, MobilePanel } from "../../widgets";
 
 export const HomePage = () => {
   const { classes } = useHomePageStyles();

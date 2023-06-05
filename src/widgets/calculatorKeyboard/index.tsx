@@ -12,6 +12,7 @@ import {
   TbEqual as EqualIcon,
   TbPlusMinus as PlusMinusIcon,
 } from "react-icons/tb";
+import { ClickOperator } from "../../shared/lib";
 
 export const CalculatorKeyboard = () => {
   return (
@@ -29,7 +30,7 @@ export const CalculatorKeyboard = () => {
         <Button color="#4B5EFC" label={<DivideIcon />} />
       </Grid.Col>
       <Grid.Col span={3}>
-        <Button label={1} />
+        <Button label={1} onClick={() => ClickOperator()} />
       </Grid.Col>
       <Grid.Col span={3}>
         <Button label={2} />

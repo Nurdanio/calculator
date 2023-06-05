@@ -9,5 +9,6 @@ export const useHomePageStyles = createStyles(() => ({
     height: 815,
     backgroundColor: "#17171C",
     borderRadius: 20,
+    justifyContent: "space-between",
   },
 }));
